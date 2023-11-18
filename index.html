@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">Mutliper Timers App</div>
+    <div class="timer-input">
+        <div class="set">Set Time:</div>
+        <div class="i">
+            <input type="number" id="hours" placeholder="hh" min="0" max="24" />
+            <span>:</span>
+            <input type="number" id="minutes" placeholder="mm" min="0" max="59" />
+            <span>:</span>
+            <input type="number" id="seconds" placeholder="ss" min="0" max="59" />
+        </div>
+        
+        <div><button id="startTimer">Set</button></div> 
+    </div>
+    <div class="current">Current Timers</div>
+    <div class="no-timers">You have no timers currently!</div>
+    <div class="active-timers"></div>
+
+    <audio id="alert" src="alert.mp3"></audio>
+<script src="script.js"></script>
+</body>
+</html>

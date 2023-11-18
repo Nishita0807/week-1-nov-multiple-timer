@@ -1,0 +1,203 @@
+body{
+    background-color: #1d1d23;
+}
+
+
+.timer-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#34344a;
+    color: white;
+    margin-left:350px;
+    margin-right:350px;
+    margin-top: 100px;
+    height:100px;
+    margin-bottom:30px;
+    border-radius: 12px;
+}
+.i{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.timer-input input[type="number"]{
+    background-color: #34344a;
+    color: white;
+    border: none;
+    font-size: 48px;
+    
+}
+.timer-input button {
+    background-color: #34344a;
+    color: white;
+    border: none;
+   
+    font-size: 16px; /* Reduce the font size of input fields and button */
+    
+   
+
+}
+
+.i>input{
+    width:100px;
+ 
+}
+.i>span{
+    font-size: 48px;
+}
+
+#minutes{
+    margin-left:18px;
+}
+#seconds{
+    margin-left:18px;
+}
+
+.timer-input input::placeholder {
+    color: white;
+    opacity: 1;
+    font-size: 48px;
+    text-align: center; /* Center the placeholder text */
+    text-decoration: underline;
+}
+
+
+
+.timer-input button {
+    background-color:#f0f757;
+    color: black;
+    width:80px;
+    height:40px;
+    border-radius: 20px; /* Apply curved border to both left and right sides */
+
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+ 
+    text-align: center; /* Center the content horizontally */
+    background-color: #39393e;
+    color:white;
+    width: 300px; /* Set the desired width */
+    margin: 0 auto; /* Center horizontally */
+    height:50px;
+    border-radius: 50px;
+}
+
+.active-timers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ 
+    text-align: center; /* Center the content horizontally */
+    
+    color:black;
+    margin-left:350px;
+    margin-right:350px;
+    
+}
+.no-timers{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:12px;
+    color:white;
+}
+.timer {
+    display: flex;
+    justify-content: space-around; /* Add this line */
+    align-items: center;
+    background-color:#34344a;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+    width:97%;
+    text-align: center;
+    height:100px;
+    margin-bottom:30px;
+    margin-top:30px;
+}
+
+.timer-content {
+   
+    font-size: 20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px;
+    
+}
+
+
+.stop-timer {
+    background-color:#f0f757;
+    color: black;
+    width:80px;
+    height:40px;
+    border-radius: 20px; /* Apply curved border to both left and right sides */
+font-size: 16px;
+    border: none;
+  margin-right: -10px;
+    cursor: pointer;
+}
+
+.timer-part{
+    font-size:48px ;
+}
+.timer-label{
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+
+
+
+
+.timer>.set{
+    margin-left:-10px;
+    font-size:16px;
+ }
+ 
+
+.timer-ended{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Apply some basic styles to the main div */
+.main {
+font-weight: 700;
+   color:white;
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    width: auto; /* Adjust the width as needed */
+    margin: 0 auto; /* This will horizontally center the div */
+    position: absolute; /* This is used to center vertically */
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* This centers the div both horizontally and vertically */
+}
+
+
+.current{
+    margin-left:35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color:white; 
+   font-size:24px;
+   width:413px;
+   height:66px;
+   border-radius: 12px;
+   background-color: #39393e;
+}
